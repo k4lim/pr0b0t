@@ -42,7 +42,7 @@ client.on('message', async message => {
         fields: [
           {
             name: "Benis (+/-)",
-            value: post.up + post.down + ' (' + post.up + " / " + post.down + ')'
+            value: post.up - post.down + ' (' + post.up + " / " + post.down + ')'
           },
 /*          {
             name: "top tags",
@@ -69,7 +69,7 @@ client.on('message', async message => {
         fields: [
           {
             name: "Benis (+/-)",
-            value: post.up + post.down + ' (' + post.up + " / " + post.down + ')'
+            value: post.up - post.down + ' (' + post.up + " / " + post.down + ')'
           },
 /*          {
             name: "top tags",
@@ -96,7 +96,7 @@ client.on('message', async message => {
         fields: [
           {
             name: "Benis (+/-)",
-            value: post.up + post.down + ' (' + post.up + " / " + post.down + ')'
+            value: post.up - post.down + ' (' + post.up + " / " + post.down + ')'
           },
 /*          {
             name: "top tags",
