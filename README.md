@@ -1,3 +1,5 @@
+**This code is absolete and does not work anymore. Use [this one](https://github.com/pr0-dev/Discord-Bot) instead.**
+
 # pr0b0t
 
 ## How to use
